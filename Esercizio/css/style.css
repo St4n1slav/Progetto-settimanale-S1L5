@@ -10,6 +10,13 @@ header{
 h1{
     padding-top: 3rem;
     padding-bottom: 2rem;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    margin-top: 3rem;
+    font-size: 2rem;
 }
 
 header img{
@@ -18,8 +25,7 @@ header img{
 
 body main nav{
     text-size-adjust: auto;
-    min-width: 100wh;
-    min-height: 100vh;
+    
     background-image: url(../images/banner.jpg);
     padding-bottom: 3rem;
 }
@@ -27,7 +33,6 @@ body main nav{
 body main nav div{
     font-weight: bold;
     padding: 1rem 2.5rem;
-
 }
 
 button{
@@ -39,26 +44,80 @@ button{
     border-radius: 0.5rem;
 }
 
+button:hover{
+    background-color: #f04c2f80;
+    cursor: pointer;
+}
+
 #round_photo{
     border-radius: 50%;
     width: 70%;
+    margin-top: 2rem;
 }
 
 body{
+    min-width: 100%;
     text-align: center;
     font-family: "Open Sans";
-    font-size: 1.2rem;
-    inline-size: 1,65;
+    font-size: 2rem;
+    line-height: 1.65;
     color: #393d41;
+    width: 100wh;
+
+}
+#red_box{
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+    background-color: #e22d0e;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    color: white;
+}
+
+#Mario{
+    font-size: 2.5rem;
+}
+
+#red_box h2{
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 4rem;
+    color: white;
+}
+
+#red_box span{
+    padding: 1rem;
+    font-style: italic;
+}
+
+.card{
+    margin-bottom: 4rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #dee1e3;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .headings{
     font-family: "Montserrat";
     color: #25a2c3;
     font-weight: bold;
-    initial-value: 1.5;
+    line-height: 1.5;
+}
+
+.photo{
+    width: 100%;
 }
 
 footer{
     background-color: #25a2c3;
+}
+
+footer p{
+    color: white;
+}
+
+.address{
+    color: #c8e7f0;
 }
