@@ -1,0 +1,64 @@
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background-color: black;
+    padding: 4.5rem 2rem;
+}
+
+h1{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+header img{
+    width: 40%;
+}
+
+body main nav{
+    text-size-adjust: auto;
+    min-width: 100wh;
+    min-height: 100vh;
+    background-image: url(../images/banner.jpg);
+    padding-bottom: 3rem;
+}
+
+body main nav div{
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+
+}
+
+button{
+    background-color: #f04c2f;
+    border: none;
+    color: white;
+    padding: 1.5rem 3rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+#round_photo{
+    border-radius: 50%;
+    width: 70%;
+}
+
+body{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    inline-size: 1,65;
+    color: #393d41;
+}
+
+.headings{
+    font-family: "Montserrat";
+    color: #25a2c3;
+    font-weight: bold;
+    initial-value: 1.5;
+}
+
+footer{
+    background-color: #25a2c3;
+}
